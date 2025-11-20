@@ -1,6 +1,8 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
+matplotlib.use("Agg")  
+import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 import io
 import base64
